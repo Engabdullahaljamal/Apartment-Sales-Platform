@@ -1,0 +1,144 @@
+.navbar {
+    width: 100vw;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFF8FF;
+    position: fixed;
+    z-index: 3;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #222222;
+
+}
+
+.navbar button {
+    padding: 10px 49px !important;
+    border: none;
+    background-color: #025595;
+    color: #F5F5F5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+
+}
+
+
+
+.display_toggle {
+    display: flex !important;
+}
+
+
+
+.navbar svg {
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+    fill: #025595;
+
+
+}
+
+.navbar_small {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    width: 100%;
+}
+
+#cancel {
+    display: none;
+}
+
+#nav_list li a:hover {
+   
+    color: #025595 !important;
+    ;
+}
+
+@media screen and (max-width:900px) {
+    .navbar  {
+       padding: 20px 40px;
+    }
+}
+@media screen and (min-width:801px) {
+    .navbar button {
+        display: block !important
+    }
+}
+
+@media screen and (max-width:800px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar ul,
+    .navbar button,
+    #first_logo {
+        display: none;
+    }
+
+    .navbar svg {
+        display: block;
+    }
+
+    .navbar_small {
+        display: flex;
+    }
+
+    #nav_list {
+        display: none;
+
+        padding-top: 40px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        z-index: 100;
+        width: 100%;
+    }
+
+    #nav_list li {
+        font-family: Inter;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 64px;
+        text-align: left;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+
+    #nav_list li a {
+        display: block;
+        width: 100%;
+
+    }
+
+    .navbar button {
+        margin: 50px 0px;
+    }
+
+
+}

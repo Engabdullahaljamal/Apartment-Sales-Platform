@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Inter;
+  color: #222222;
+
+}
+/* 
+body {
+  background-color: rgb(99, 108, 130);
+}
+
+.navbar {
+  background-color: rgb(99, 108, 130) !important;
+}
+
+.navbar #nav_list li a {
+  color: white !important;
+}
+
+.hero {
+  background-color: rgb(99, 108, 130);
+}
+
+.hero h1 {
+  color: white !important;
+}
+
+.main_title h2 {
+  color: white !important;
+}
+.trending_card{
+  background-color: rgb(81, 91, 117);
+} */

@@ -1,0 +1,43 @@
+.best_deals_img_card {
+    width: 387.8px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+.best_deals_img_card img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.img_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.featured {
+    width: 116.03px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.three_d {
+    width: 30.01px;
+    height: 26px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
