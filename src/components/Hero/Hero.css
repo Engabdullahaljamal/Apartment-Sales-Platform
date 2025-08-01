@@ -2,6 +2,7 @@
     background-color: #EFF8FF;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .hero .hero_img {

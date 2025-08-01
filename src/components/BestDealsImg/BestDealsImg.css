@@ -3,6 +3,7 @@
     height: 300px;
     border-radius: 5px;
     position: relative;
+    overflow: hidden;
 }
 .best_deals_img_card img{
     width: 100% !important;

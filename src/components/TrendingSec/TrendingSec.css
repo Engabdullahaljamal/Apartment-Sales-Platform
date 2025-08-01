@@ -5,11 +5,12 @@
     align-items: center;
     gap: 25px;
     flex-wrap: wrap;
+  
 }
 
 @media screen and (max-width:500px) {
     .trending_card_container {
-       padding: 0 20px !important;
+        padding: 0 20px !important;
 
     }
 }
