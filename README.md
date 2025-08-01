@@ -25,6 +25,7 @@ cd Apartment-Sales-Platform
 npm install
 npm run dev
 
+
 ## 📁 Folder Structure
 
 ```bash
