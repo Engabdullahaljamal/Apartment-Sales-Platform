@@ -38,7 +38,8 @@ src/
 ├── App.jsx              # Main app component
 ├── App.css              # Global styles
 
-⚙️ Installation & Setup
+
+## ⚙️ Installation & Setup
 
 git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
 cd Apartment-Sales-Platform
