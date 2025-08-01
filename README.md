@@ -17,34 +17,31 @@ It includes navigation sections like **Home**, **Best Deals**, **Services**, **N
 - **CSS** – for layout and styling  
 - **GitHub Pages** – for deployment
 
+## 📁 Project Structure
+
+public/               → Static files  
+src/assets/images/    → Image files  
+src/components/       → All React components (Hero, Contact, Cards, etc.)  
+App.jsx, main.jsx     → Entry point files  
+vite.config.js        → Vite configuration  
+
+---
+
 ## ⚙️ Installation & Setup
 
+To run this project locally:
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
+
+# 2. Navigate to the project folder
 cd Apartment-Sales-Platform
+
+# 3. Install dependencies
 npm install
+
+# 4. Start the development server
 npm run dev
-
-## 📁 Folder Structure
-
-```bash
-src/
-├── assets/              # Images & icons
-├── components/          # Reusable React components
-│   ├── BestDealsImg/
-│   ├── BestDealsSec/
-│   ├── FindSec/
-│   ├── Footer/
-│   ├── Hero/
-│   ├── HeroCard/
-│   ├── HowCard/
-│   ├── HowSec/
-│   ├── MainTitle/
-│   ├── Navbar/
-│   ├── TrendingCard/
-│   └── TrendingSec/
-├── App.jsx              # Main app component
-├── App.css              # Global styles
-
 
 
