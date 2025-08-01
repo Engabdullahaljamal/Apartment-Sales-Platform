@@ -17,6 +17,13 @@ It includes navigation sections like **Home**, **Best Deals**, **Services**, **N
 - **CSS** – for layout and styling  
 - **GitHub Pages** – for deployment
 
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
+cd Apartment-Sales-Platform
+npm install
+npm run dev
 
 ## 📁 Folder Structure
 
@@ -39,12 +46,5 @@ src/
 ├── App.jsx              # Main app component
 ├── App.css              # Global styles
 
-## ⚙️ Installation & Setup
-
-```bash
-git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
-cd Apartment-Sales-Platform
-npm install
-npm run dev
 
 
