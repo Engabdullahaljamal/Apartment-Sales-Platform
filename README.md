@@ -41,6 +41,7 @@ src/
 
 ## ⚙️ Installation & Setup
 
+
 git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
 cd Apartment-Sales-Platform
 npm install
